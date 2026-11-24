@@ -13,19 +13,19 @@
    Bảng màu: navy sâu + vàng champagne + ngà (ivory)
    ========================================================== */
 :root{
-  --navy-900:#081a33;
-  --navy-800:#0b1f3a;
-  --navy-700:#13305a;
-  --navy-500:#2a4a7c;
-  --gold-600:#a9812c;
-  --gold-500:#c9a24a;
-  --gold-300:#ecd595;
-  --gold-100:#fbf3dc;
-  --ivory:#fbf8f1;
+  --navy-900:#050f22;
+  --navy-800:#0a1d3b;
+  --navy-700:#143167;
+  --navy-500:#2e5aa8;
+  --gold-600:#9a7122;
+  --gold-500:#d4a845;
+  --gold-300:#f1d98c;
+  --gold-100:#fdf5d9;
+  --ivory:#faf6ec;
   --paper:#ffffff;
-  --ink:#1b2333;
-  --muted:#667085;
-  --line:#eadcb8;
+  --ink:#16202f;
+  --muted:#5b6578;
+  --line:#e6d29a;
 
   /* màu chấm bài — tách bạch hoàn toàn */
   --ok:#17794f;          /* đúng: xanh ngọc */
@@ -456,7 +456,14 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
       { h: "4. Những danh từ cần nhớ",
         p: "Một số danh từ rất hay gặp nhưng không đếm được trong tiếng Anh. Muốn đếm, ta dùng “a piece of” hoặc “two pieces of”.",
         ex: [["a piece of advice", "một lời khuyên"], ["two pieces of furniture", "hai món đồ nội thất"]],
-        warn: "information, advice, news, furniture, homework, luggage đều không đếm được; không thêm -s và không dùng a/an." }
+        warn: "information, advice, news, furniture, homework, luggage đều không đếm được; không thêm -s và không dùng a/an." },
+      { h: "5. Cách nhận biết nhanh",
+        p: "Hỏi bằng “How many?”. Nếu trả lời được bằng số đếm (one, two, three…) thì danh từ đó đếm được. Nếu chỉ trả lời được bằng “How much?” và một đơn vị đo lường thì danh từ đó không đếm được.",
+        ex: [["How many pens? – Three pens.", "Có bao nhiêu cái bút? – Ba cái bút."], ["How much rice? – A bowl of rice.", "Bao nhiêu gạo? – Một bát cơm."]] },
+      { h: "6. Lỗi thường gặp và cách sửa",
+        p: "Học sinh hay thêm -s vào danh từ không đếm được. Khi cần đếm, hãy dùng đơn vị đo lường đi kèm thay vì thêm -s.",
+        ex: [["two glasses of water", "hai cốc nước"], ["three bottles of milk", "ba chai sữa"]],
+        warn: "Không viết “many informations” hay “an advice”. Dùng “a lot of information”, “some advice”." }
     ],
     ex: [
       { title: "Bài tập 1. Chọn danh từ đếm được hoặc không đếm được", note: "Đọc kỹ yêu cầu của từng câu: đếm được hay không đếm được.", items: [
@@ -506,7 +513,14 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
         ex: [["Dogs are loyal animals.", "Chó là loài vật trung thành."], ["I like music.", "Tôi thích âm nhạc."], ["We have lunch at noon.", "Chúng tôi ăn trưa vào buổi trưa."]] },
       { h: "4. The với nhạc cụ và một số địa điểm",
         ex: [["play the piano / the guitar", "chơi piano / ghi-ta"], ["go to the zoo / the cinema", "đi sở thú / đi rạp chiếu phim"]],
-        warn: "Trước âm /j/ hoặc /juː/ dùng a: “a European city”, “a useful book”, dù chữ đầu là nguyên âm." }
+        warn: "Trước âm /j/ hoặc /juː/ dùng a: “a European city”, “a useful book”, dù chữ đầu là nguyên âm." },
+      { h: "5. Mạo từ với tên riêng và địa danh",
+        p: "Thường không dùng mạo từ với tên người, tên thành phố và tên quốc gia. Tên đảo, tên sông, tên đại dương và tên dãy núi thường đi với the.",
+        ex: [["Vietnam / London", "Việt Nam / Luân Đôn (không mạo từ)"], ["the Mekong River / the Alps", "sông Mê Kông / dãy núi An-pơ"]] },
+      { h: "6. Quy trình chọn mạo từ trong 3 bước",
+        p: "Bước 1: hỏi danh từ có đếm được không. Bước 2: nếu đếm được và số ít, hỏi người nghe đã biết đối tượng đó chưa: biết thì the, chưa biết thì a/an. Bước 3: nếu danh từ là số nhiều hoặc không đếm được và nói chung chung, không dùng mạo từ.",
+        ex: [["A teacher is coming. (chưa xác định)", "Một giáo viên sắp đến."], ["The teacher is coming. (cả hai biết)", "Cô giáo sắp đến."]],
+        warn: "Không viết “the Lan” hay “a Vietnam”." }
     ],
     ex: [
       { title: "Bài tập 1. Chọn a hoặc an", note: "Nhìn cách đọc của từ kế tiếp để chọn đúng.", items: [
@@ -553,7 +567,14 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
         f: "my · your · his · her · its · our · their", ex: [["my book", "cuốn sách của tôi"], ["their school", "trường của họ"]] },
       { h: "4. Đại từ sở hữu (Possessive pronouns)", p: "Đứng một mình, thay cho cả cụm “tính từ sở hữu + danh từ”.",
         f: "mine · yours · his · hers · ours · theirs", ex: [["This bag is mine.", "Cái túi này là của tôi."], ["That pen is hers.", "Cây bút kia là của cô ấy."]],
-        warn: "“Its” (của nó) không có dấu nháy; “it's” là viết tắt của “it is”. Không viết “hers book”, vì “hers” đứng một mình." }
+        warn: "“Its” (của nó) không có dấu nháy; “it's” là viết tắt của “it is”. Không viết “hers book”, vì “hers” đứng một mình." },
+      { h: "5. Đại từ đứng sau giới từ",
+        p: "Sau các giới từ như to, for, with, from, about, at, đại từ luôn ở dạng tân ngữ: me, you, him, her, it, us, them.",
+        ex: [["Let's talk about it.", "Hãy nói về nó nhé."], ["This present is for you.", "Món quà này dành cho bạn."]] },
+      { h: "6. Dùng it và they đúng cách",
+        p: "“It” thay cho vật hoặc con vật số ít. “They” thay cho người hoặc vật số nhiều. Khi nói về vật, không dùng “he” hay “she”.",
+        ex: [["The books are old. They are cheap.", "Những cuốn sách này cũ. Chúng rẻ."]],
+        warn: "Không dùng “he” hoặc “she” để chỉ con mèo hay cái bàn, trừ khi chúng có tên riêng." }
     ],
     ex: [
       { title: "Bài tập 1. Chọn đại từ đúng", note: "Xác định vị trí của đại từ trong câu: chủ ngữ, tân ngữ, tính từ sở hữu hay đại từ sở hữu.", items: [
@@ -603,7 +624,14 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
       { h: "5. Sở hữu với “of”", p: "Với đồ vật, thường dùng “of” để nối các thành phần.",
         f: "the color of the car = the car's color",
         ex: [["the door of the room", "cửa của căn phòng"], ["today's news", "tin tức hôm nay"]],
-        warn: "Không viết “the mother's of Lan”. Đúng là “Lan's mother” (mẹ của Lan)." }
+        warn: "Không viết “the mother's of Lan”. Đúng là “Lan's mother” (mẹ của Lan)." },
+      { h: "5. Nhận biết danh từ số nhiều để chọn dấu",
+        p: "Trước khi thêm dấu, hãy kiểm tra danh từ có tận cùng bằng -s không. Có -s thì chỉ thêm dấu nháy; không có -s thì thêm 's.",
+        ex: [["the girls' dresses", "váy của các bạn gái"], ["the men's hats", "mũ của các người đàn ông"]] },
+      { h: "6. Nhiều người sở hữu",
+        p: "Khi hai người cùng sở hữu một vật chung, chỉ thêm 's sau tên cuối. Khi mỗi người có một vật riêng, thêm 's cho cả hai.",
+        ex: [["Tom and Mary's house", "ngôi nhà chung của Tom và Mary"], ["Tom's and Mary's bags", "cặp của Tom và cặp của Mary (hai cái)"]],
+        warn: "Đại từ sở hữu (hers, its, theirs) không có dấu nháy. Không viết “her's” hay “it's” để chỉ sở hữu." }
     ],
     ex: [
       { title: "Bài tập 1. Điền 's hoặc ' vào chỗ trống", note: "Gõ cả cụm từ đã hoàn chỉnh.", items: [
@@ -655,7 +683,14 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
       { h: "4. Many và much",
         p: "Trong câu phủ định và câu hỏi: many đi với danh từ đếm được; much đi với danh từ không đếm được.",
         ex: [["Do you have many books?", "Bạn có nhiều sách không?"], ["We don't have much time.", "Chúng ta không có nhiều thời gian."]],
-        warn: "Trong câu khẳng định, người ta thường dùng “a lot of” thay cho many/much." }
+        warn: "Trong câu khẳng định, người ta thường dùng “a lot of” thay cho many/much." },
+      { h: "5. Each, every, no, none",
+        p: "“Each” và “every” đi với danh từ số ít, nghĩa là “mỗi”. “No” đứng trước danh từ và làm câu mang nghĩa phủ định. “None of” đứng trước đại từ hoặc danh từ có “the”.",
+        ex: [["Every student has a book.", "Mỗi học sinh có một cuốn sách."], ["None of the students were late.", "Không có học sinh nào đến muộn."]] },
+      { h: "6. Lỗi thường gặp với too và enough",
+        p: "Khi nói “quá nhiều”, dùng too many với danh từ đếm được và too much với danh từ không đếm được. Không dùng very many hay very much để thay thế.",
+        ex: [["There are too many people here.", "Ở đây có quá nhiều người."], ["We have too much homework.", "Chúng tôi có quá nhiều bài tập về nhà."]],
+        warn: "Không viết “very many people” trong ngữ cảnh chê bai; dùng too many." }
     ],
     ex: [
       { title: "Bài tập 1. Chọn some hoặc any", note: "Chú ý loại câu: khẳng định, phủ định hay nghi vấn.", items: [
@@ -715,7 +750,14 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
       { h: "4. Dùng khi nào?",
         p: "Thói quen, lịch trình, sự thật hiển nhiên; thường đi với các trạng từ tần suất: always, usually, often, sometimes, never.",
         ex: [["The sun rises in the east.", "Mặt trời mọc ở phía đông."], ["We have English on Monday.", "Chúng tôi học tiếng Anh vào thứ Hai."]],
-        warn: "Với động từ “be”: I am, you/we/they are, he/she/it is. Không dùng do/does với “be”." }
+        warn: "Với động từ “be”: I am, you/we/they are, he/she/it is. Không dùng do/does với “be”." },
+      { h: "5. Trạng từ tần suất",
+        p: "Trạng từ tần suất (always, usually, often, sometimes, never) đứng trước động từ thường và đứng sau động từ “be”.",
+        ex: [["She always gets up early.", "Cô ấy luôn dậy sớm."], ["He is never late.", "Cậu ấy không bao giờ đến muộn."]] },
+      { h: "6. Thêm -s/-es cho he, she, it",
+        p: "Động từ tận cùng bằng -o, -ch, -sh, -s, -x thêm -es (go → goes, watch → watches). Động từ tận cùng bằng phụ âm + y đổi y thành i rồi thêm -es (study → studies).",
+        ex: [["He goes to school by bus.", "Cậu ấy đi học bằng xe buýt."], ["My mother studies English.", "Mẹ tôi học tiếng Anh."]],
+        warn: "Không thêm -s khi chủ ngữ là I, you, we, they: viết “they play”, không viết “they plays”." }
     ],
     ex: [
       { title: "Bài tập 1. Chọn dạng đúng của động từ", note: "Chú ý chủ ngữ để biết có thêm -s/-es hay không.", items: [
@@ -767,7 +809,13 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
       { h: "4. Động từ chỉ trạng thái",
         p: "Một số động từ như know, like, want, need, understand thường không dùng ở thì tiếp diễn.",
         ex: [["I know the answer.", "Tôi biết đáp án."]],
-        warn: "Không viết “I am knowing the answer”. Hãy viết “I know the answer”." }
+        warn: "Không viết “I am knowing the answer”. Hãy viết “I know the answer”." },
+      { h: "5. Cách thêm -ing",
+        p: "Động từ tận cùng bằng e câm thì bỏ e rồi thêm -ing (make → making). Động từ một âm tiết tận cùng bằng phụ âm–nguyên âm–phụ âm thì gấp đôi phụ âm cuối (run → running).",
+        ex: [["writing / running", "đang viết / đang chạy"], ["making / sitting", "đang làm / đang ngồi"]] },
+      { h: "6. Thì hiện tại tiếp diễn cho kế hoạch gần",
+        p: "Thì hiện tại tiếp diễn cũng dùng để nói về kế hoạch đã được sắp xếp trong tương lai gần, thường có trạng từ thời gian đi kèm.",
+        ex: [["We are visiting Hue tomorrow.", "Ngày mai chúng tôi sẽ đi Huế."], ["They are leaving at noon.", "Họ sẽ rời đi lúc trưa."]] }
     ],
     ex: [
       { title: "Bài tập 1. Viết dạng -ing của động từ", note: "Gõ dạng V-ing đúng.", items: [
@@ -817,7 +865,13 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
         ex: [["I visited Hanoi.", "Tôi đã đến thăm Hà Nội."], ["She didn't go out.", "Cô ấy đã không ra ngoài."], ["Did they win the match?", "Họ đã thắng trận đấu không?"]] },
       { h: "4. Dấu hiệu nhận biết",
         p: "yesterday, last week / month / year, ago, in 2010, two days ago.",
-        warn: "Với “be”: was (I/he/she/it) và were (you/we/they). Không dùng did với was/were." }
+        warn: "Với “be”: was (I/he/she/it) và were (you/we/they). Không dùng did với was/were." },
+      { h: "5. Phân biệt was/were với did",
+        p: "Với “be” dùng was/were. Với động từ thường, câu khẳng định dùng động từ quá khứ (V2); câu phủ định và nghi vấn dùng did + động từ nguyên mẫu.",
+        ex: [["Did you see the film?", "Bạn có xem phim không?"], ["I didn't go out last night.", "Tối qua tôi không ra ngoài."]] },
+      { h: "6. Dấu hiệu nhận biết",
+        p: "Các cụm như yesterday, last week, two days ago, in 2019 thường báo hiệu thì quá khứ đơn vì chúng chỉ một thời điểm đã kết thúc.",
+        ex: [["I visited my grandmother last week.", "Tuần trước tôi thăm bà."], ["They moved to Hanoi in 2019.", "Họ chuyển đến Hà Nội năm 2019."]] }
     ],
     ex: [
       { title: "Bài tập 1. Viết dạng quá khứ của động từ", note: "Gõ dạng quá khứ đơn.", items: [
@@ -866,7 +920,14 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
       { h: "3. Động từ bất quy tắc thường gặp",
         ex: [["go → gone", "đi (đã đi và chưa về)"], ["see → seen", "nhìn thấy"], ["eat → eaten", "ăn"], ["write → written", "viết"], ["do → done", "làm"], ["be → been", "đã là / đã đến"]] },
       { h: "4. for và since",
-        warn: "for + khoảng thời gian (for two years); since + mốc thời gian (since 2018, since Monday)." }
+        warn: "for + khoảng thời gian (for two years); since + mốc thời gian (since 2018, since Monday)." },
+      { h: "5. Just, already và yet",
+        p: "Just (vừa mới) và already (đã… rồi) thường dùng trong câu khẳng định. Yet (chưa) dùng trong câu phủ định và nghi vấn, và thường đứng cuối câu.",
+        ex: [["I have just finished my homework.", "Tôi vừa làm xong bài tập."], ["Have you finished yet?", "Bạn đã làm xong chưa?"]] },
+      { h: "6. Hiện tại hoàn thành và quá khứ đơn",
+        p: "Dùng quá khứ đơn khi có thời điểm xác định trong quá khứ. Dùng hiện tại hoàn thành khi thời gian không xác định hoặc kéo dài đến hiện tại.",
+        ex: [["I have seen this film before.", "Tôi đã từng xem bộ phim này (không rõ khi nào)."], ["I saw it in 2020.", "Tôi xem nó vào năm 2020."]],
+        warn: "Không dùng hiện tại hoàn thành với mốc thời gian đã kết thúc: không viết “I have seen him yesterday”." }
     ],
     ex: [
       { title: "Bài tập 1. Viết quá khứ phân từ (V3)", note: "Gõ dạng V3.", items: [
@@ -915,7 +976,13 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
         p: "tomorrow, next week / month / year, in 2030, soon, in the future, I think / I believe + mệnh đề." },
       { h: "4. Trả lời ngắn",
         ex: [["Will you come? — Yes, I will.", "Bạn có đến không? — Có, mình sẽ đến."], ["Will he win? — No, he won't.", "Anh ấy có thắng không? — Không, anh ấy sẽ không thắng."]],
-        warn: "Sau will luôn là động từ nguyên mẫu: will go (không viết will to go, will goes)." }
+        warn: "Sau will luôn là động từ nguyên mẫu: will go (không viết will to go, will goes)." },
+      { h: "5. Will và be going to",
+        p: "Will dùng cho quyết định ngay lúc nói, lời hứa và dự đoán không có căn cứ rõ. Be going to dùng cho kế hoạch đã định hoặc dự đoán có căn cứ.",
+        ex: [["I will help you.", "Tôi sẽ giúp bạn (quyết định ngay lúc nói)."], ["I am going to visit my aunt.", "Tôi định đến thăm dì (kế hoạch đã có)."]] },
+      { h: "6. Câu phủ định và nghi vấn với will",
+        p: "Câu phủ định: chủ ngữ + will not (won't) + động từ nguyên mẫu. Câu hỏi: Will + chủ ngữ + động từ nguyên mẫu?",
+        ex: [["She won't come tonight.", "Tối nay cô ấy sẽ không đến."], ["Will you join us?", "Bạn có tham gia cùng chúng tôi không?"]] }
     ],
     ex: [
       { title: "Bài tập 1. Chọn đáp án đúng", note: "Phân biệt dự đoán, quyết định tức thời và lời hứa.", items: [
@@ -975,7 +1042,14 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
       { h: "4. May — có thể",
         p: "Diễn tả khả năng có thể xảy ra nhưng chưa chắc chắn.",
         ex: [["It may rain this afternoon.", "Chiều nay có thể trời mưa."]],
-        warn: "Động từ khuyết thiếu (should, must, may, have to…) không thêm -s cho chủ ngữ số ít và không đi với “to” trước động từ chính." }
+        warn: "Động từ khuyết thiếu (should, must, may, have to…) không thêm -s cho chủ ngữ số ít và không đi với “to” trước động từ chính." },
+      { h: "5. Should và must",
+        p: "Should dùng để khuyên, nghĩa là nên làm. Must dùng khi có sự bắt buộc, thường do quy định hoặc do chính người nói quyết định.",
+        ex: [["You should eat more vegetables.", "Bạn nên ăn nhiều rau hơn."], ["You must wear a helmet.", "Bạn phải đội mũ bảo hiểm."]] },
+      { h: "6. Have to và mustn't",
+        p: "Have to thường dùng cho quy định bên ngoài hoặc việc bắt buộc theo thói quen. Trong câu phủ định và nghi vấn, have to cần trợ động từ do/does/did.",
+        ex: [["I have to get up at six.", "Tôi phải dậy lúc sáu giờ."], ["She doesn't have to work on Sunday.", "Cô ấy không phải làm việc vào Chủ nhật."]],
+        warn: "Mustn't nghĩa là cấm, không nghĩa là không cần. Để nói “không cần”, dùng don't have to." }
     ],
     ex: [
       { title: "Bài tập 1. Chọn should, shouldn't, must hoặc mustn't", note: "Phân biệt lời khuyên (should) và quy định (must).", items: [
@@ -1028,7 +1102,14 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
       { h: "4. So sánh bằng và các dạng bất quy tắc",
         f: "as + adj + as  ·  good → better → the best  ·  bad → worse → the worst",
         ex: [["Mai runs as fast as Hoa.", "Mai chạy nhanh bằng Hoa."]],
-        warn: "Nhớ các dạng bất quy tắc: good – better – best; bad – worse – worst." }
+        warn: "Nhớ các dạng bất quy tắc: good – better – best; bad – worse – worst." },
+      { h: "5. So sánh hơn với tính từ dài",
+        p: "Tính từ có hai âm tiết trở lên (beautiful, interesting) dùng more + tính từ + than. Tính từ hai âm tiết tận cùng bằng -y đổi y thành -ier (happy → happier).",
+        ex: [["more beautiful than", "đẹp hơn"], ["happier than", "vui hơn"]] },
+      { h: "6. So sánh nhất và so sánh bằng",
+        p: "So sánh nhất: the + tính từ -est hoặc the most + tính từ dài. So sánh bằng: as + tính từ + as.",
+        ex: [["the tallest student", "học sinh cao nhất"], ["as tall as my brother", "cao bằng anh trai tôi"]],
+        warn: "Không viết “more taller” hay “the most tallest”." }
     ],
     ex: [
       { title: "Bài tập 1. Viết dạng so sánh của tính từ", note: "Gõ dạng so sánh đúng.", items: [
@@ -1075,7 +1156,14 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
         ex: [["Would you like tea or coffee?", "Bạn muốn trà hay cà phê?"]] },
       { h: "4. So — nối kết quả", p: "Dùng để chỉ kết quả của sự việc đứng trước.",
         ex: [["It was raining, so we stayed home.", "Trời mưa nên chúng tôi ở nhà."]],
-        warn: "Khi nối hai mệnh đề đầy đủ, thường có dấu phẩy trước but và so: I was tired, so I went to bed." }
+        warn: "Khi nối hai mệnh đề đầy đủ, thường có dấu phẩy trước but và so: I was tired, so I went to bed." },
+      { h: "5. And, but, or, so, because",
+        p: "And (và) nối ý cùng chiều. But (nhưng) nối ý đối lập. Or (hoặc) đưa ra lựa chọn. So (vì vậy) chỉ kết quả. Because (bởi vì) chỉ lý do.",
+        ex: [["I was hungry, so I ate a sandwich.", "Tôi đói nên tôi ăn một chiếc bánh mì kẹp."], ["I stayed home because it rained.", "Tôi ở nhà vì trời mưa."]] },
+      { h: "6. Because và because of",
+        p: "Because đi với mệnh đề đầy đủ (chủ ngữ + động từ). Because of đi với một cụm danh từ.",
+        ex: [["Because it was late, we went home.", "Vì đã muộn nên chúng tôi về nhà."], ["Because of the rain, we stayed inside.", "Vì trời mưa nên chúng tôi ở trong nhà."]],
+        warn: "Không dùng because of trước một mệnh đề đầy đủ có chủ ngữ và động từ." }
     ],
     ex: [
       { title: "Bài tập 1. Chọn liên từ đúng", note: "Đọc nghĩa của cả câu để chọn.", items: [
@@ -1120,7 +1208,14 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
         ex: [["on Monday / on Sundays", "vào thứ Hai / vào các ngày Chủ nhật"], ["on 10th June", "vào ngày 10 tháng 6"], ["on Christmas Day", "vào ngày Giáng sinh"]] },
       { h: "3. IN — tháng, mùa, năm, buổi trong ngày",
         ex: [["in June / in summer", "vào tháng 6 / vào mùa hè"], ["in 2015 / in the morning", "vào năm 2015 / vào buổi sáng"]],
-        warn: "Dùng “at night” nhưng “in the morning / in the afternoon / in the evening”." }
+        warn: "Dùng “at night” nhưng “in the morning / in the afternoon / in the evening”." },
+      { h: "5. At, on, in với thời gian",
+        p: "At đi với giờ cụ thể (at 7 o'clock, at noon). On đi với ngày trong tuần và ngày cụ thể (on Monday, on 5 June). In đi với tháng, năm, mùa (in June, in 2025, in summer).",
+        ex: [["at noon", "vào buổi trưa"], ["on Sunday morning", "vào sáng Chủ nhật"]] },
+      { h: "6. Các giới từ chỉ khoảng thời gian",
+        p: "From … to (từ … đến), before (trước), after (sau), during (trong suốt), until (cho đến khi) là những giới từ thường gặp khi nói về thời gian.",
+        ex: [["from 8 to 10", "từ 8 đến 10 giờ"], ["during the summer holiday", "trong suốt kỳ nghỉ hè"]],
+        warn: "Không dùng in với ngày trong tuần (không viết “in Monday”) và không dùng at với năm (không viết “at 2020”)." }
     ],
     ex: [
       { title: "Bài tập 1. Chọn in, on hoặc at", note: "Nhớ: giờ → at; ngày → on; tháng/năm → in.", items: [
@@ -1166,7 +1261,13 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
       { h: "3. Across from",
         p: "Dùng across from để chỉ vị trí đối diện, ở bên kia đường.",
         ex: [["The shop is across from the bank.", "Cửa hàng nằm đối diện ngân hàng, bên kia đường."]],
-        warn: "Dùng between khi có từ hai đối tượng trở lên: between A and B." }
+        warn: "Dùng between khi có từ hai đối tượng trở lên: between A and B." },
+      { h: "5. In, on, at chỉ nơi chốn",
+        p: "In chỉ bên trong một không gian, thành phố hoặc quốc gia. On chỉ bề mặt tiếp xúc. At chỉ một điểm hoặc địa điểm cụ thể.",
+        ex: [["in the box", "trong hộp"], ["on the table", "trên bàn"], ["at the bus stop", "ở trạm xe buýt"]] },
+      { h: "6. Giới từ chỉ vị trí quanh vật",
+        p: "Above (phía trên, không chạm), under (phía dưới), next to (cạnh), opposite (đối diện), behind (phía sau) là các giới từ mô tả vị trí tương đối.",
+        ex: [["The lamp is above the bed.", "Đèn ở phía trên giường."], ["The bank is opposite the school.", "Ngân hàng đối diện trường học."]] }
     ],
     ex: [
       { title: "Bài tập 1. Chọn giới từ chỉ vị trí", note: "Hình dung vị trí của vật trước khi chọn.", items: [
@@ -1224,7 +1325,13 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
         p: "Thay phần được gạch chân bằng từ hỏi tương ứng và đưa lên đầu câu.",
         ex: [["They went to the cinema on Sunday. → When did they go to the cinema?", "Họ đi xem phim hôm Chủ nhật. → Họ đi xem phim khi nào?"]] },
       { h: "4. Lưu ý",
-        warn: "Không đảo sai thứ tự: viết “What is your name?”, không viết “What your name is?”." }
+        warn: "Không đảo sai thứ tự: viết “What is your name?”, không viết “What your name is?”." },
+      { h: "5. Trợ động từ trong câu hỏi",
+        p: "Câu hỏi với động từ thường cần do/does/did đặt sau từ để hỏi. Với động từ be, đưa be lên trước chủ ngữ.",
+        ex: [["Where do you live?", "Bạn sống ở đâu?"], ["Where is the library?", "Thư viện ở đâu?"]] },
+      { h: "6. Phân biệt what, which và who",
+        p: "What hỏi về vật hoặc thông tin nói chung. Which hỏi về sự lựa chọn trong một nhóm xác định. Who hỏi về người.",
+        ex: [["Which book do you want, the red one or the blue one?", "Bạn muốn cuốn sách nào, cuốn đỏ hay cuốn xanh?"], ["Who is your favourite singer?", "Ca sĩ yêu thích của bạn là ai?"]] }
     ],
     ex: [
       { title: "Bài tập 1. Điền từ để hỏi thích hợp", note: "Gõ một từ để hỏi.", items: [
@@ -1274,7 +1381,13 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
       { h: "4. Could you và Would you like",
         f: "Could you + V…?  ·  Would you like + danh từ / to V…?",
         ex: [["Could you pass me the salt?", "Bạn làm ơn đưa giúp tôi lọ muối được không?"], ["Would you like some tea?", "Bạn có muốn uống chút trà không?"]],
-        warn: "Sau Let's, Could you, Why don't you đều dùng động từ nguyên mẫu, không có to." }
+        warn: "Sau Let's, Could you, Why don't you đều dùng động từ nguyên mẫu, không có to." },
+      { h: "5. Dạng phủ định của câu mệnh lệnh",
+        p: "Thêm Don't trước động từ nguyên mẫu để cấm hoặc khuyên không làm. Never đứng trước động từ để nhấn mạnh hơn.",
+        ex: [["Don't run in the hall.", "Đừng chạy ở hành lang."], ["Never touch the hot pan.", "Đừng bao giờ chạm vào cái chảo nóng."]] },
+      { h: "6. Gợi ý lịch sự với Shall và Why don't",
+        p: "Shall we…? dùng để đề nghị cùng làm việc gì. Why don't we…? dùng để gợi ý một cách nhẹ nhàng.",
+        ex: [["Shall we go to the park?", "Chúng ta đi công viên nhé?"], ["Why don't we study together?", "Sao chúng ta không học cùng nhau?"]] }
     ],
     ex: [
       { title: "Bài tập 1. Chọn đáp án đúng", note: "Chú ý dạng của động từ và trợ động từ.", items: [
@@ -1323,7 +1436,13 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
         f: "How + adj / adv + (S + V)!",
         ex: [["How beautiful!", "Đẹp quá!"], ["How beautiful the flower is!", "Bông hoa đẹp làm sao!"], ["How fast he runs!", "Anh ấy chạy nhanh làm sao!"]] },
       { h: "4. Lưu ý",
-        warn: "What + a/an đi với danh từ đếm được số ít. How không đi với a/an: viết “How beautiful”, không viết “How a beautiful”." }
+        warn: "What + a/an đi với danh từ đếm được số ít. How không đi với a/an: viết “How beautiful”, không viết “How a beautiful”." },
+      { h: "5. What với danh từ không đếm được và số nhiều",
+        p: "Với danh từ không đếm được hoặc danh từ số nhiều, không dùng a/an sau What.",
+        ex: [["What good news!", "Tin tốt quá!"], ["What beautiful flowers!", "Những bông hoa đẹp quá!"]] },
+      { h: "6. How với tính từ và trạng từ",
+        p: "How + tính từ hoặc trạng từ dùng để nhấn mạnh mức độ, không cần danh từ đi sau.",
+        ex: [["How fast the car is!", "Chiếc xe chạy nhanh quá!"], ["How well you sing!", "Bạn hát hay quá!"]] }
     ],
     ex: [
       { title: "Bài tập 1. Chọn What hoặc How", note: "Chú ý từ đứng sau: danh từ hay tính từ/trạng từ.", items: [
@@ -1373,7 +1492,13 @@ window.CHUYEN_DE = (window.CHUYEN_DE || []).concat([
       { h: "3. Unless",
         p: "Unless có nghĩa là “nếu … không”. Có thể thay cho if … not.",
         ex: [["Unless you hurry, you will miss the bus.", "Nếu bạn không nhanh lên, bạn sẽ lỡ xe buýt."]],
-        warn: "Trong mệnh đề có if (hoặc unless) không dùng will hay would: viết “If it rains”, không viết “If it will rain”." }
+        warn: "Trong mệnh đề có if (hoặc unless) không dùng will hay would: viết “If it rains”, không viết “If it will rain”." },
+      { h: "5. Điều kiện loại 1 và loại 2",
+        p: "Loại 1 nói về điều có thể xảy ra: If + hiện tại đơn, will + động từ nguyên mẫu. Loại 2 nói về điều không có thật ở hiện tại: If + quá khứ đơn, would + động từ nguyên mẫu.",
+        ex: [["If it rains, I will stay home.", "Nếu trời mưa, tôi sẽ ở nhà."], ["If I had a car, I would drive to school.", "Nếu tôi có ô tô, tôi sẽ lái đến trường."]] },
+      { h: "6. Vị trí của mệnh đề if",
+        p: "Mệnh đề if có thể đứng đầu hoặc cuối câu. Khi đứng đầu, cần dấu phẩy ngăn với mệnh đề chính.",
+        ex: [["If you study hard, you will pass.", "Nếu học chăm, bạn sẽ đỗ."], ["You will pass if you study hard.", "Bạn sẽ đỗ nếu học chăm."]] }
     ],
     ex: [
       { title: "Bài tập 1. Điền dạng đúng của động từ (loại 1)", note: "Gõ dạng đúng của động từ trong ngoặc hoặc trong chỗ trống.", items: [
